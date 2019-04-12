@@ -1,0 +1,20 @@
+// See JavaFX with IntelliJ with Gradle instructions here: https://openjfx.io/openjfx-docs/#IDE-Intellij
+
+plugins {
+    id 'application'
+    id 'org.openjfx.javafxplugin' version '0.0.7'
+}
+
+repositories {
+    mavenCentral()
+}
+
+javafx {
+    modules = [ 'javafx.controls' ]
+}
+
+//mainClassName = 'HelloFX'
+//mainClassName = 'ButtonDemo1'
+mainClassName = 'ButtonDemo2'
+
+sourceCompatibility = 1.11
